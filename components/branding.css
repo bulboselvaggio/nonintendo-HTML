@@ -1,0 +1,29 @@
+.branding-branding {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+}
+.branding-logo {
+  width: var(--dl-size-size-xlarge);
+  height: auto;
+  object-fit: cover;
+}
+
+
+@media(max-width: 767px) {
+  .branding-logo {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media(max-width: 479px) {
+  .branding-logo {
+    width: var(--dl-size-size-xlarge);
+    height: 100%;
+  }
+  .branding-root-class-name1 {
+    width: var(--dl-size-size-xxlarge);
+  }
+}
